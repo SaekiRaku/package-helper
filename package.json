@@ -1,0 +1,45 @@
+{
+  "name": "@qiqi1996/package-helper",
+  "version": "1.0.0",
+  "description": "A tool helps you to edit the package.json by interactive command line.",
+  "main": "dist/pkg/index.js",
+  "module": "dist/pkg/index.esm.js",
+  "bin": {
+    "package-helper": "dist/cli/index.js"
+  },
+  "scripts": {
+    "dev": "node -r esm bootstrap.js develop",
+    "build": "node -r esm bootstrap.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaekiRaku/package-helper.git"
+  },
+  "author": "qiqi1996",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaekiRaku/package-helper/issues"
+  },
+  "homepage": "https://github.com/SaekiRaku/package-helper#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@qiqi1996/qi-auto": "^1.2.2",
+    "@qiqi1996/qi-rollup-dev": "^1.1.0",
+    "@rollup/plugin-json": "^4.0.1",
+    "@rollup/plugin-strip": "^1.3.1",
+    "esm": "^3.2.25",
+    "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-banner": "^0.2.1"
+  },
+  "dependencies": {
+    "@qiqi1996/qi-i18n-node": "^1.1.0",
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.1",
+    "json-format": "^1.0.1",
+    "lodash": "^4.17.15",
+    "os-locale": "^4.0.0"
+  }
+}
