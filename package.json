@@ -1,6 +1,6 @@
 {
   "name": "@qiqi1996/package-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool helps you to edit the package.json by interactive command line.",
   "main": "dist/pkg/index.js",
   "module": "dist/pkg/index.esm.js",

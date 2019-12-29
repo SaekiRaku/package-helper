@@ -13,7 +13,7 @@ var _ = _interopDefault(require('lodash'));
 var jsonFormat = _interopDefault(require('json-format'));
 
 var name = "@qiqi1996/package-helper";
-var version = "1.0.0";
+var version = "1.0.1";
 var description = "A tool helps you to edit the package.json by interactive command line.";
 var main = "dist/pkg/index.js";
 var module$1 = "dist/pkg/index.esm.js";
@@ -183,7 +183,7 @@ var translation_cli = {
     "en": "package.json is not exists (?)",
     "zh-CN": "package.json 文件不存在（?）"
   },
-  "error:faild": {
+  "error:failed": {
     "en": "Failed to read/parse the package.json (?)",
     "zh-CN": "无法读取/解析 package.json 文件（?）"
   }

@@ -115,7 +115,7 @@ var translation_cli = {
     "en": "package.json is not exists (?)",
     "zh-CN": "package.json 文件不存在（?）"
   },
-  "error:faild": {
+  "error:failed": {
     "en": "Failed to read/parse the package.json (?)",
     "zh-CN": "无法读取/解析 package.json 文件（?）"
   }
